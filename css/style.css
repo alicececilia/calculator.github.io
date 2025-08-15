@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Quantico, Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(100, 100, 100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+#calculator {
+  width: 600px;
+  padding: 0.5rem;
+  background-color: #fdfdfd;
+  border: 10px solid #f0f0f0;
+  border-radius: 25px;
+  color: rgb(32, 32, 32);
+  display: flex;
+  flex-direction: column;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#operations {
+  text-align: right;
+  background-color: #cdcdcd;
+  border-radius: 25px;
+  margin: 0.5rem;
+  border: 1px solid #9c9c9c;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#previous-operation,
+#current-operation {
+  overflow-wrap: break-word;
+  min-height: 1.6rem;
+  margin: 0;
+  padding: 0;
+  margin-right: 1.25rem;
+}
+
+#previous-operation {
+  color: #5e5e5e;
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+
+#current-operation {
+  font-size: 3rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+#buttons-container {
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 16px;
+  margin: 0.5rem;
+}
+
+#buttons-container button {
+  font-size: 1.5rem;
+  border-radius: 100px;
+  height: 100px;
+  width: 100px;
+}
+
+/* row-1 */
+.row-1 {
+  background-color: #ffcf94;
+  border: 3px solid #ffb55a;
+  cursor: pointer;
+}
+.row-1:hover {
+  background-color: #ffb55a;
+}
+
+/* row-2 */
+.row-2 {
+  background-color: #fffbb0;
+  border: 3px solid #faf488;
+  cursor: pointer;
+}
+.row-2:hover {
+  background-color: #faf488;
+}
+
+/* row-3 */
+.row-3 {
+  background-color: #ffd8e0;
+  border: 3px solid #ffc5d0;
+  cursor: pointer;
+}
+.row-3:hover {
+  background-color: #ffc5d0;
+}
+
+/* row-4 */
+.row-4 {
+  background-color: #f1c9f6;
+  border: 3px solid #f4b2fd;
+  cursor: pointer;
+}
+.row-4:hover {
+  background-color: #f4b2fd;
+}
+
+/* row-5 */
+.row-5 {
+  background-color: #d0f3ff;
+  border: 3px solid #adebff;
+  cursor: pointer;
+}
+.row-5:hover {
+  background-color: #adebff;
+}
