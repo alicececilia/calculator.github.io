@@ -26,6 +26,7 @@ body {
 }
 
 #operations {
+  min-height: 150px;
   text-align: right;
   background-color: #cdcdcd;
   border-radius: 25px;
